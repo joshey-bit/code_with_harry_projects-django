@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Utils</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <button> <a href= /about > About </a> </button>
+    <h2>Enter your text below</h2>
+    <form action=/analyze method="get">
+        <textarea name='text' style='width: 642px; height: 158px;'></textarea>
+        <br>
+
+        <input type="checkbox" name="removepunc"> Remove Punctuations
+        <input type="checkbox" name="capitalize"> Capitalize
+        <input type="checkbox" name="newlineremove"> New Line Remover
+        <input type="checkbox" name="extraspaceremove"> Extra Space Remover
+        <input type="checkbox" name="charcount"> Character Count
+        <br>
+
+        <button type='submit'> Analyze Text </button>
+    </form>
+
+    <!-- this is commented out
+    <button type="submit"> <a href= /removepunc > remove punctuations </a> </button>
+    <button type="submit"> <a href= /newlineremove > New Line Remover </a> </button>
+    <button type="submit"> <a href= /spaceremove > Space Remover </a> </button>
+    <button type="submit"> <a href= /charcount > Character counter </a> </button>
+    -->
+    <div>
+        This website is created by {{creator}} who is located in {{location}}
+        contact him at: {{email}}
+    </div>
+
+</body>
+</html>
